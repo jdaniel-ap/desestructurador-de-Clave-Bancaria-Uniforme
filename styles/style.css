@@ -1,0 +1,61 @@
+body {
+    box-sizing: border-box;
+    color: #2f3542;
+}
+
+.container {
+    width: 500px;
+    border: solid 1px black;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Jost', sans-serif;
+}
+
+.user-type-box {
+    display: flex;
+    align-items: center;
+}
+
+#cbu {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.error {
+    border: solid 2px #eb2f06;
+    border-radius: 5px;
+}
+
+.success {
+    border: solid 2px #27ae60;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #2f3542;
+    border: #2f3542 2px solid;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: #2f3542;
+    color: white;
+}
+
+button:active {
+    background-color: white;
+    color: #2f3542;
+}
+
+#message {
+    font-size: 17px;
+    padding: 20px;
+}
