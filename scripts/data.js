@@ -5,7 +5,7 @@ const bankData = [
     cuit: 30707227415,
   },
   {
-    code: 017,
+    code: 17,
     bank: "	Banco BBVA Argentina S.A.",
     cuit: 30500003193,
   },
@@ -55,7 +55,7 @@ const bankData = [
     cuit: 30542033637,
   },
   {
-    code: 094,
+    code: 94,
     bank: "Banco de Corrientes S.A.",
     cuit: 30500010602,
   },
@@ -65,7 +65,7 @@ const bankData = [
     cuit: 30671375900,
   },
   {
-    code: 007,
+    code: 7,
     bank: "Banco de Galicia y Buenos Aires S.A.U.",
     cuit: 30500001735,
   },
@@ -75,27 +75,27 @@ const bankData = [
     cuit: 30651129083,
   },
   {
-    code: 029,
+    code: 29,
     bank: "Banco de la Ciudad de Buenos Aires",
     cuit: 30999032083,
   },
   {
-    code: 011,
+    code: 11,
     bank: "Banco de la Nacion Argentina",
     cuit: 30500010912,
   },
   {
-    code: 093,
+    code: 93,
     bank: "Banco de La Pampa Sociedad de Economia Mixta",
     cuit: 30500012516,
   },
   {
-    code: 014,
+    code: 14,
     bank: "Banco de la Provincia de Buenos Aires",
     cuit: 33999242109,
   },
   {
-    code: 020,
+    code: 20,
     bank: "Banco de la Provincia de Cordoba S.A.",
     cuit: 30999228565,
   },
@@ -105,12 +105,12 @@ const bankData = [
     cuit: 30588337843,
   },
   {
-    code: 045,
+    code: 45,
     bank: "Banco de San Juan S.A.",
     cuit: 30500009442,
   },
   {
-    code: 086,
+    code: 86,
     bank: "Banco de Santa Cruz S.A.",
     cuit: 30500098801,
   },
@@ -150,7 +150,7 @@ const bankData = [
     cuit: 30712592407,
   },
   {
-    code: 044,
+    code: 44,
     bank: "Banco Hipotecario S.A.",
     cuit: 30500011072,
   },
@@ -195,12 +195,12 @@ const bankData = [
     cuit: 30534487491,
   },
   {
-    code: 065,
+    code: 65,
     bank: "Banco Municipal de Rosario",
     cuit: 33999181819,
   },
   {
-    code: 034,
+    code: 34,
     bank: "Banco Patagonia S.A.",
     cuit: 30500006613,
   },
@@ -215,7 +215,7 @@ const bankData = [
     cuit: 30575655781,
   },
   {
-    code: 097,
+    code: 97,
     bank: "Banco Provincia del Neuquen S.A.",
     cuit: 30500014047,
   },
@@ -235,7 +235,7 @@ const bankData = [
     cuit: 30534672434,
   },
   {
-    code: 072,
+    code: 72,
     bank: "Banco Santander Rio S.A.",
     cuit: 30500008454,
   },
@@ -245,7 +245,7 @@ const bankData = [
     cuit: 30716090333,
   },
   {
-    code: 027,
+    code: 27,
     bank: "Banco Supervielle S.A.",
     cuit: 33500005179,
   },
@@ -275,7 +275,7 @@ const bankData = [
     cuit: 30715899716,
   },
   {
-    code: 016,
+    code: 16,
     bank: "Citibank N.A.",
     cuit: 30500005625,
   },
@@ -285,7 +285,7 @@ const bankData = [
     cuit: 33537186009,
   },
   {
-    code: 015,
+    code: 15,
     bank: "Industrial and Commercial Bank of China (Argentina) S.A.",
     cuit: 30709447846,
   },

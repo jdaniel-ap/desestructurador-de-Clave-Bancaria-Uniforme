@@ -1,17 +1,22 @@
 body {
     box-sizing: border-box;
     color: #2f3542;
+    display: flex;
+    justify-content: center;
+    font-family: 'Jost', sans-serif;
 }
 
 .container {
     width: 500px;
-    border: solid 1px black;
-    height: 110px;
+    border: solid 1px #c6c6c6;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    height: auto;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: baseline;
     flex-direction: column;
-    padding: 20px;
-    font-family: 'Jost', sans-serif;
+    padding: 20px 0;
 }
 
 .user-type-box {
@@ -19,29 +24,43 @@ body {
     align-items: center;
 }
 
+.wrap-input {
+    display: flex;
+    margin-left: 2px;
+}
+
 #cbu {
+    padding: 5px;
+    font-size: 20px;
+    outline: transparent;
+    text-align: center;
+    width: 350px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #c6c6c6
+}
+
+.cbu-number {
     padding: 10px;
     font-size: 20px;
 }
 
 .error {
-    border: solid 2px #eb2f06;
+    border: solid 1px #eb2f06;
     border-radius: 5px;
 }
 
 .success {
-    border: solid 2px #27ae60;
+    border: solid 1px #27ae60;
     border-radius: 4px;
 }
 
 button {
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 20px;
     cursor: pointer;
     color: #2f3542;
-    border: #2f3542 2px solid;
-    border-radius: 5px;
-    margin-left: 10px;
+    border: #c6c6c6 1px solid;
+    border-radius: 0 5px 5px 0;
     background-color: transparent;
 }
 
@@ -57,5 +76,34 @@ button:active {
 
 #message {
     font-size: 17px;
-    padding: 20px;
+    padding: 10px;
 }
+
+
+@media only screen and (max-width: 500px) {
+    body {
+      width: 400px;
+      font-size: 22px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 30px;
+        border: none;
+        box-shadow: none;
+    }
+
+    #cbu {
+        font-size: 20px;
+        width: auto;
+    }
+
+    .cbu-number {
+        display: none;
+    }
+
+    #message {
+        font-size: 23px;
+        border: none;
+    }
+  }

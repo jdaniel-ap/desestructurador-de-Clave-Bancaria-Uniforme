@@ -12,13 +12,16 @@
 <body>
    <main class="container">
        <div class="user-type-box">
-           <span>CBU</span>
-           <input type="number" id="cbu" onkeypress=" if(this.value.length == 22) return false;" />
-           <button id="search">Buscar</button>
+           <span class="cbu-number">CBU</span>
+           <div class="wrap-input">
+               <input type="number" id="cbu" placeholder="Ingresa tu CBU" onkeypress=" if(this.value.length == 22) return false;" />
+               <button id="search"><i class="fas fa-search"></i></button>
+           </div>
         </div>
         <span id="message"></span>
    </main>
 </body>
 <script src="./scripts/data.js"></script>
 <script src="./scripts/setBank.js"></script>
+<script src="https://kit.fontawesome.com/11720ade63.js" crossorigin="anonymous"></script>
 </html>

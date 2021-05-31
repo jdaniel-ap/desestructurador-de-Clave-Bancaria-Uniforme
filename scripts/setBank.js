@@ -1,9 +1,6 @@
 const userCbu = document.getElementById("cbu");
 const searchBtn = document.getElementById("search");
 const message = document.getElementById("message");
-const state = {
-  error: false,
-};
 
 function verify() {
   searchBtn.addEventListener("click", () => {
@@ -15,13 +12,16 @@ function dataSuccess(value) {
   const notFound = 'No encontrado'
   const switchValue = value.toString();
   const entityNumber = switchValue.substr(0, 3);
+  const branchNumber = switchValue.substr(3, 4);
+  const accountNumber = switchValue.substr(8, 13)
   const index = bankData.findIndex((element) => element.code == entityNumber);
-  index < 0 ? setMessage(notFound) : setMessage(`${bankData[index].bank} CUIT ${bankData[index].cuit} `);
+  index < 0 ? setMessage(notFound) : setMessage(`${bankData[index].bank} <br> Sucursal: ${branchNumber} <br> Nº de cuenta: ${accountNumber} <br> CUIT: ${bankData[index].cuit}`);
+  userCbu.className = "success";
   
 }
 
 function setMessage(value) {
-   return message.textContent = value;
+   return message.innerHTML = value;
 }
 
 function dataFailure() {
